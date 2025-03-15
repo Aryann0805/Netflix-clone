@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+/* url(images/IN-en-20250303-TRIFECTA-perspective_d5f81427-d6cf-412d-8e86-2315671b9be1_large.png) */
 .top-container {
-    background-image: url(http://127.0.0.1:5500/images/IN-en-20250303-TRIFECTA-perspective_d5f81427-d6cf-412d-8e86-2315671b9be1_large.png);
+    background-image: url(images/IN-en-20250303-TRIFECTA-perspective_d5f81427-d6cf-412d-8e86-2315671b9be1_large.png);
     background-size: cover;
     background-position: center;
     width: 100vw;
@@ -186,7 +186,7 @@ nav {
     margin-bottom: 10px;
     color: white;
     text-align: left;
-    width: 90%;
+    width: 95%;
     background-color: rgba(49, 48, 48, 0.984);
     border-radius: 20px;
     padding: 20px;
@@ -202,7 +202,7 @@ nav {
     margin-bottom: 10px;
     color: white;
     height: auto;
-    width: 80%;
+    width: 79vw;
     background-color: rgba(49, 48, 48, 0.984);
     border-radius: 20px;
     padding: 20px;
@@ -231,6 +231,14 @@ nav {
 }
 
 @media screen and (min-width: 960px) {
+    .top-container {
+        height: 100vh;
+    }
+
+    .box {
+        height: 100vh;
+    }
+    
     .content {
         font-size: 1.6rem;
         max-width: 586px;
@@ -265,7 +273,7 @@ nav {
     }
 
     .answer {
-        width: 86%;
+        width: 88vw;
     }
 
     .question {
